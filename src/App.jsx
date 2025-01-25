@@ -91,7 +91,7 @@ function App() {
           {isYear==false&& <p className='text-danger'>*Invalid Input</p>}
           </div>
           <div className="mt-3 d-flex p-3 justify-content-around">
-          <Button onClick={calculate} variant="contained" size ="large" color="success">CALCULATE</Button>
+          <Button onClick={calculate} variant="contained" size ="large" color="success" className='me-3'>CALCULATE</Button>
           <Button onClick={handleReset} variant="outlined" size ="large" color="success">RESET</Button>
           </div>
         </div>
